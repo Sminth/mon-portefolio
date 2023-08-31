@@ -5,7 +5,7 @@ import { getTasksTextWithHighlightedKeyword } from "./taskAndType";
 export default function EnsVision() {
   const tasks = [
     {
-      text: "Développement d'une application clone de Djamo utilisant Reat Native et Metro",
+      text: "Développement d&apos;une application clone de Djamo utilisant Reat Native et Metro",
       keywords: ["Reat Native", "Metro"],
     },
     {

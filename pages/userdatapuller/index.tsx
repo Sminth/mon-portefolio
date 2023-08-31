@@ -98,10 +98,10 @@ export default function Page() {
   }
   }, [context.sharedState]);
 
-  // import Dynamically the Map component from the DataPuller package, cus it's using some client side objects
+  // import Dynamically the Map component from the DataPuller package, cus it&apos;s using some client side objects
   const Map = dynamic(
     () => import("../../components/DataPullerProject/Map"),
-    { ssr: false } // This line is important. It's what prevents server-side render
+    { ssr: false } // This line is important. It&apos;s what prevents server-side render
   );
 
   return (

@@ -57,7 +57,7 @@ export default function Home() {
   console.log("Portfolio Rendered...");
   const meta = {
     title: "Emmanuel Malan - Software Engineer",
-    description: `Je travaille sur le développement de logiciels depuis 3 ans d'affilée. Contactez-moi pour en savoir plus.`,
+    description: `Je travaille sur le développement de logiciels depuis 3 ans d&apos;affilée. Contactez-moi pour en savoir plus.`,
     image: "/img/sminth.jpeg",
     type: "website",
   };

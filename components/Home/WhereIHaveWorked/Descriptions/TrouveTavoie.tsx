@@ -5,11 +5,11 @@ import { getTasksTextWithHighlightedKeyword } from "./taskAndType";
 export default function TrouveTavoie() {
   const tasks = [
     {
-      text: "Participation à la mise en place d'une plateforme d'analyse et de visualisation des données pour l'association Africaine de l'eau et de l'Assainissement (AAEA) | Nuxt.Js, Vue.Js, Spring Boot, Docker Portainer, PostgreSql",
+      text: "Participation à la mise en place d&apos;une plateforme d&apos;analyse et de visualisation des données pour l&apos;association Africaine de l&apos;eau et de l&apos;Assainissement (AAEA) | Nuxt.Js, Vue.Js, Spring Boot, Docker Portainer, PostgreSql",
       keywords: ["Nuxt.Js", "Vue.js", "Spring Boot", "Docker Portainer"],
     },
     {
-      text: "Analyse et mise en place d’un projet de Cartographie pour l’association AUCPN (Association Des Usiniers Producteurs De Caoutchouc), conçu avec Angular, Sping boot.",
+      text: "Analyse et mise en place d&apos;un projet de Cartographie pour l&apos;association AUCPN (Association Des Usiniers Producteurs De Caoutchouc), conçu avec Angular, Sping boot.",
       keywords: ["Angular", "Spring Boot"],
     },
     // {

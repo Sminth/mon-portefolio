@@ -14,10 +14,10 @@ export default function About() {
       </div>
       <div className="flex flex-col space-y-8  items-center">
         <span className="font-extrabold lg:text-5xl md:text-4xl text-2xl sm:text-3xl text-gray-300 text-center">
-          What&apos;s this project for?
+          What&apos;;s this project for?
         </span>
         <span className="font-sans italic  sm:text-base text-sm text-gray-400 text-center">
-          Most jobs do not explicitly require certain typing speeds, but that&apos;s because basic typing skills are
+          Most jobs do not explicitly require certain typing speeds, but that&apos;;s because basic typing skills are
           taken as a given. Thus, you should{" "}
           <span className="font-bold text-gray-300">aim for a typing speed of at least 40 WPM</span> to keep up a
           standard level of efficiency at work..However this project aim to help you to improve your typing speed by

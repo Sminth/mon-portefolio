@@ -28,18 +28,18 @@ export default function AboutMe(props) {
         <div className="w-full md:w-7/12 space-y-4 sm:text-base text-sm ">
           <div className="font-Header ">
             <span className="text-gray-400 ">
-              Salut ! Je m'appelle Emmanuel Malan, et je suis un ingénieur logiciel passionné et résolveur de problèmes, dédié à la création de codes impactants sur le web et le mobile. Mon aventure en informatique a commencé en 2018, lorsque je me suis plongé dans le monde du hacking éthique avec de simple <span className="text-AAsecondary">code python</span>.
+              Salut ! Je m&apos;appelle Emmanuel Malan, et je suis un ingénieur logiciel passionné et résolveur de problèmes, dédié à la création de codes impactants sur le web et le mobile. Mon aventure en informatique a commencé en 2018, lorsque je me suis plongé dans le monde du hacking éthique avec de simple <span className="text-AAsecondary">code python</span>.
             </span>
           </div>
           <div className="font-Header ">
             <span className="text-gray-400 ">
-              Depuis ma licemce 2 en <span className="text-AAsecondary">MIAGE</span> , J'ai eu à travailler sur divers projets pour diverses entreprises, me permettant d'affiner mon expertise en développement web et mobile. J'aime repousser les limites et favoriser les avancées. Ma passion pour l'apprentissage continu me pousse à toujours me challenger
+              Depuis ma licemce 2 en <span className="text-AAsecondary">MIAGE</span> , J&apos;ai eu à travailler sur divers projets pour diverses entreprises, me permettant d&apos;affiner mon expertise en développement web et mobile. J&apos;aime repousser les limites et favoriser les avancées. Ma passion pour l&apos;apprentissage continu me pousse à toujours me challenger
               </span>
           </div>
 
           <div className="font-Header tracking-wide">
             <span className="text-gray-400  ">
-              Voici quelques technologies avec lesquelles j'ai récemment travaillé :
+              Voici quelques technologies avec lesquelles j&apos;ai récemment travaillé :
             </span>
           </div>
           <div className="font-Header tracking-wide flex flex-row space-x-16">

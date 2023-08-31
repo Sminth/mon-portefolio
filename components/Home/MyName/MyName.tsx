@@ -19,7 +19,7 @@ export default function MyName(props: { finishedLoading: boolean }) {
         }}
         className="text-AAsecondary font-mono"
       >
-        Salut, je m'appelle
+        Salut, je m&apos;appelle
       </motion.span>
       <motion.h1
         initial={{ y: 10, opacity: 0 }}

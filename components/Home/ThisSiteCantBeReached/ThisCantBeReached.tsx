@@ -186,7 +186,7 @@ export default function ThisCantBeReached() {
                 est actuelement
               </motion.span>
             ) : (
-              <span>n&apos;est pas</span>
+              <span>n&apos;;est pas</span>
             )}{" "}
             accessible
           </span>
