@@ -76,14 +76,14 @@ export default function MyName(props: { finishedLoading: boolean }) {
       </motion.div>
       <motion.div
   initial={{ y: 10, opacity: 0 }}
-  animate={{ y: [2, 10, 0], opacity: [1, 0.8, 1] }}
+  animate={{ y: [0, 10, 0], opacity: [1, 0.8, 1] }}
   transition={{
     opacity: { delay: props.finishedLoading ? 0 : 10.8, duration: props.finishedLoading ? 0 : 0.2 },
-    y: { delay: 17.8, duration: 7.8, yoyo: Infinity },
+    y: { delay: 10.8, duration: 0.8, yoyo: Infinity },
   }}
-  className="mt-12 text-center"
+  className=" mt-12 text-center"
 >
-  <a href="#sectionAPropos" style={{ border: "1px solid rgb(100 255 218)", width: "50px", borderRadius: "50%" }} className="md:d-hidden px-3 py-2  justify-center items-center  text-AAsecondary  text-center bg-ble-300">
+  <a href="#sectionAPropos" style={{ border: "1px solid rgb(100 255 218)", width: "50px", borderRadius: "50%" }} className="px-3 py-2  justify-center items-center  text-AAsecondary  text-center bg-ble-300">
     &#8595;
   </a>
 </motion.div>
