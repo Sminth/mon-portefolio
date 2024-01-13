@@ -281,7 +281,7 @@ export default function Page() {
                 {updatingLocatinResult ? (
                   <span className="text-sm">
                     Impossible de récupérer votre position !!
-                    <br /> Veuillez autoriser l'autorisation de localisation
+                    <br /> Veuillez autoriser l&apos;autorisation de localisation
                   </span>
                 ) : (
                   <></>

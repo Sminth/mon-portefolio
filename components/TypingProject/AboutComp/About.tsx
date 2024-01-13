@@ -17,10 +17,10 @@ export default function About() {
           A quoi sert ce projet ?
         </span>
         <span className="font-sans italic sm:text-base text-sm text-gray-400 text-center">
-          La plupart des emplois n'exigent pas explicitement certaines vitesses de frappe, mais c'est parce que les compétences de base en frappe sont nécessaires.
+          La plupart des emplois n&apos;exigent pas explicitement certaines vitesses de frappe, mais c&apos;est parce que les compétences de base en frappe sont nécessaires.
           pris pour acquis. Ainsi, vous devriez{" "}
-          <span className="font-bold text-gray-300">visez une vitesse de frappe d'au moins 40 WPM</span> pour maintenir un
-          niveau standard d'efficacité au travail. Cependant, ce projet vise à vous aider à améliorer votre vitesse de frappe en
+          <span className="font-bold text-gray-300">visez une vitesse de frappe d&apos;au moins 40 WPM</span> pour maintenir un
+          niveau standard d&apos;efficacité au travail. Cependant, ce projet vise à vous aider à améliorer votre vitesse de frappe en
           suivre vos progrès à chaque tour et vous donner un score basé sur votre vitesse de frappe et votre précision.
         </span>
       </div>

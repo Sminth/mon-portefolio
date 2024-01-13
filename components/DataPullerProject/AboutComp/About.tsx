@@ -15,10 +15,10 @@ export default function About() {
               A quoi sert ce projet ?
             </span>
             <span className="font-sans italic sm:text-base text-sm text-gray-400 text-center">
-              Ce n'est un secret pour personne : les sites veulent en savoir le plus possible
+              Ce n&apos;est un secret pour personne : les sites veulent en savoir le plus possible
               sur leurs visiteurs, que ce soit pour leur montrer des publicités ciblées
               ou améliorer leur expérience utilisateur. Le but de ce projet est de
-              vous donner une idée des types d'informations que les sites Web peuvent
+              vous donner une idée des types d&apos;informations que les sites Web peuvent
               collecter et accéder à vous. Quels que soient les paramètres de confidentialité
               de votre navigateur, certaines informations vous concernant sont inévitablement
               révélé aux sites que vous visitez. Par exemple, vous commencez à partager

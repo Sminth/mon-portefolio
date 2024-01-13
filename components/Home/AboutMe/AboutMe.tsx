@@ -28,7 +28,7 @@ export default function AboutMe(props) {
         <div className="w-full md:w-7/12 space-y-4 sm:text-base text-sm ">
           <div className="font-Header ">
             <span className="text-gray-400 ">
-            Salut ! Je suis <span className="text-AAsecondary">Emmanuel Malan</span>, un ingénieur logiciel passionné et résolveur de problèmes, dédié à la création de codes impactants sur le web et le mobile. Mon parcours dans le monde de l'informatique a débuté en 2018, lorsque j'ai plongé dans l'univers Python.
+            Salut ! Je suis <span className="text-AAsecondary">Emmanuel Malan</span>, un ingénieur logiciel passionné et résolveur de problèmes, dédié à la création de codes impactants sur le web et le mobile. Mon parcours dans le monde de l&apos;informatique a débuté en 2018, lorsque j&apos;ai plongé dans l&apos;univers Python.
             </span>
           </div>
           <div className="font-Header ">

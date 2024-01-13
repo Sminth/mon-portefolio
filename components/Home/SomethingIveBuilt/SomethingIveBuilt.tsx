@@ -81,7 +81,7 @@ export default function SomethingIveBuilt() {
               </div>
               <div className="w-full md:bg-AAtertiary rounded-md py-6 md:p-6  z-10">
               <p className="text-gray-300 md:text-gray-400 text-left md:text-right ">
-  J'ai joué un rôle essentiel dans le développement de <span className="text-AAsecondary">Toubabi</span> , un site web immobilier innovant. Ce projet a nécessité la conception et l'implémentation d'une interface utilisateur <span className="text-AAsecondary">interactive et intuitive</span>, optimisant l'expérience des utilisateurs à la recherche de biens immobiliers. L'intégration d'outils de <span className="text-AAsecondary">simulation de projet</span> et de <span className="text-AAsecondary">cartographie des prix</span> a permis la visualisation des prix de vente et de location de différents types de biens dans différents quartiers, ainsi que les index <span className="text-AAsecondary">DGI</span>.
+  J&apos;ai joué un rôle essentiel dans le développement de <span className="text-AAsecondary">Toubabi</span> , un site web immobilier innovant. Ce projet a nécessité la conception et l&apos;implémentation d&apos;une interface utilisateur <span className="text-AAsecondary">interactive et intuitive</span>, optimisant l&apos;expérience des utilisateurs à la recherche de biens immobiliers. L&apos;intégration d&apos;outils de <span className="text-AAsecondary">simulation de projet</span> et de <span className="text-AAsecondary">cartographie des prix</span> a permis la visualisation des prix de vente et de location de différents types de biens dans différents quartiers, ainsi que les index <span className="text-AAsecondary">DGI</span>.
 </p>
 
               </div>
@@ -146,7 +146,7 @@ export default function SomethingIveBuilt() {
               </div>
               <div className="w-full md:bg-AAtertiary rounded-md py-6 md:p-6  z-10">
                 <p className="text-gray-300 md:text-gray-400 text-left ">
-                En tant que développeur mobile, j'ai créé  <span className="text-AAsecondary">MyClub</span>, une application disponible sur le Play Store. Elle est spécialement conçue pour les étudiants du parcours <span className="text-AAsecondary">MIAGE</span> , offrant la possibilité de rejoindre un club, suivre sa progression, consulter les résumés des séances, accéder aux ressources partagées par les clubs, et participer activement aux projets en cours.
+                En tant que développeur mobile, j&apos;ai créé  <span className="text-AAsecondary">MyClub</span>, une application disponible sur le Play Store. Elle est spécialement conçue pour les étudiants du parcours <span className="text-AAsecondary">MIAGE</span> , offrant la possibilité de rejoindre un club, suivre sa progression, consulter les résumés des séances, accéder aux ressources partagées par les clubs, et participer activement aux projets en cours.
                 </p>
               </div>
               <ul
@@ -278,12 +278,12 @@ export default function SomethingIveBuilt() {
               </div>
               <div className="w-full md:bg-AAtertiary rounded-md py-6 md:p-6  z-10">
               <p className="text-gray-300 md:text-gray-400 texte-gauche ">
-                  Ce projet vous permet de comprendre à quel point il est facile d'identifier et de suivre votre navigateur en fonction de la façon dont
+                  Ce projet vous permet de comprendre à quel point il est facile d&apos;identifier et de suivre votre navigateur en fonction de la façon dont
                   il apparaît sur les sites Web. Tel que votre
                   <span className="text-AAsecondary"> emplacement</span>,{" "}
                   <span className="text-AAsecondary">Adresse IP</span>,{" "}
                   <span className="text-AAsecondary">{","} logiciel, matériel</span> et quelques informations supplémentaires
-                  à l'aide de cookies.
+                  à l&apos;aide de cookies.
                 </p>
               </div>
               <ul
@@ -356,7 +356,7 @@ export default function SomethingIveBuilt() {
               </div>
               <div className="w-full md:bg-AAtertiary rounded-md py-6 md:p-6  z-10">
               <p className="text-gray-300 md:text-gray-400 text-left ">
-                  En tant que  <span className="text-AAsecondary">Développeur Wordpress</span> j'ai aidé à la réfonte et à la maintenance
+                  En tant que  <span className="text-AAsecondary">Développeur Wordpress</span> j&apos;ai aidé à la réfonte et à la maintenance
                   du site fex.ci
                 </p>
               </div>
