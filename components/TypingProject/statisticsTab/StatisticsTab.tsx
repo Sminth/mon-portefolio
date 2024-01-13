@@ -52,10 +52,10 @@ export default function StatisticsTab({
     <>
       <div className="w-full flex flex-col space-y-4">
         <div className="w-full flex justify-center">
-          <span className="sm:text-xl text-sm text-gray-400 underline ">Statistics</span>
+          <span className="sm:text-xl text-sm text-gray-400 underline ">Statistiques</span>
         </div>
         <div className="w-full font-mono text-AAsecondary flex flex-row justify-between px-2">
-          <div className="sm:text-base text-sm ">round {round.toString()} : </div>
+          <div className="sm:text-base text-sm ">tour {round.toString()} : </div>
           <div className="sm:text-base text-sm ">{finishedTime} sec</div>
         </div>
       </div>
@@ -67,13 +67,13 @@ export default function StatisticsTab({
                 <thead className="bg-gray-500 border border-gray-500">
                   <tr>
                     <th scope="col" className="px-6 py-3 text-xs font-bold text-left text-gray-300 uppercase ">
-                      ROUND
+                      TOUR
                     </th>
                     <th scope="col" className="px-6 py-3 text-xs font-bold text-left text-gray-300 uppercase ">
                       Wpm
                     </th>
                     <th scope="col" className="px-6 py-3 text-xs font-bold text-left text-gray-300 uppercase ">
-                      Accuracy
+                    Précision
                     </th>
                   </tr>
                 </thead>

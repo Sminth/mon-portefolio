@@ -1,20 +1,17 @@
 import React from "react";
 import ArrowIcon from "../../../Icons/ArrowIcon";
 import { getTasksTextWithHighlightedKeyword } from "./taskAndType";
-export default function FeverTokens() {
+export default function Orange() {
   const tasks = [
     {
-      text: "Leading the development of the NFT Marketplace v2 for the Platform FeverTokens.",
-      keywords: ["NFT Marketplace v2"],
+      text: "Jury Pro : Application de Gestion d'événements permettant aux jurys de noter des candidats à différents évènements avec Flutter pour l'application mobile et Spring boot pour l'api",
+      keywords: ["Flutter", "Spring boot"],
     },
     {
-      text: "Worked with a team of six developers to build a temporary NFT Marketplace platform for VivaTech2022 event, an ambitious startup originating from France,Paris.",
-      keywords: ["VivaTech2022 event"],
+      text: "Contribution à la création d'un robot assistant et guide à l'Orange Digital Center, incluant la modélisation et l'impression 3D du corps, l'intégration de la reconnaissance vocale, du chatbot RASA, de la reconnaissance faciale, le développement du déplacement avec détection d'obstacles et le développement de l'application pour l interraction via une tablette avec le robot fait en flutter.",
+      keywords: ["robot","impression 3D","chatbot RASA"],
     },
-    {
-      text: "Interacted with the blockchain & Smart Contracts to build the new FeverTokens Platform.",
-      keywords: ["blockchain & Smart Contracts"],
-    },
+  
   ];
   return (
     <>
@@ -22,17 +19,17 @@ export default function FeverTokens() {
         <div className="flex flex-col spacey-y-2">
           {/* Title */}
           <span className="text-gray-100 sm:text-lg text-sm font-Arimo tracking-wide">
-            Software Engineer <span className="text-AAsecondary">@ web3</span>
+            Stage Dev <span className="text-AAsecondary">@ Fullsatck</span>
           </span>
           {/* Date */}
-          <span className="font-mono text-xs text-gray-500">Mars - August 2022</span>
+          <span className="font-mono text-xs text-gray-500">Décembre 2020 - Juillet 2021</span>
           <span
             className="font-mono text-xs text-AAsecondary hover:cursor-pointer"
             // set text size on style attribute
             style={{ fontSize: "0.6rem" }}
             onClick={() => window.open("https:///www.fevertokens.io", "_blank")}
           >
-            www.fevertokens.io
+            Orange Digital Academy
           </span>
         </div>
         <div className="flex flex-col space-y-4 sm:text-sm text-xs">

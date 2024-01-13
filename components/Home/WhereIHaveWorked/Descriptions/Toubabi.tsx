@@ -2,20 +2,12 @@ import React from "react";
 import ArrowIcon from "../../../Icons/ArrowIcon";
 import { getTasksTextWithHighlightedKeyword } from "./taskAndType";
 
-export default function AdvancedAgroManagement() {
+export default function Toubabi() {
   const tasks = [
     {
-      text: "Developed and Build a new version customizable website for Advanced Agro Management.",
-      keywords: ["Advanced Agro Management"],
-    },
-    {
-      text: "Monitored website performance and handled troubleshooting and WordPress issues.",
-      keywords: ["MOnitored","WordPress issues"],
-    },
-    {
-      text: "Managed company WordPress website back-end with Oracle Database including plugins, tools, and themes.",
-      keywords: ["Oracle Database"],
-    },
+      text: "En tant que lead, j'ai dirigé le développement de Toubabi, un site web immobilier novateur. Mon rôle clé englobait la conception et l'implémentation d'une interface utilisateur interactive, améliorant l'expérience des utilisateurs dans leur recherche de biens immobiliers. J'ai également supervisé l'intégration d'outils de simulation de projet et de cartographie des prix, permettant la visualisation des prix de vente et de location de divers types de biens dans différents quartiers, ainsi que les indices DGI. Développer principalement en Laravel",
+      keywords: ["Toubabi", "cartographie des prix", "indice DGI","Laravel"],
+    }
   ];
   return (
     <>
@@ -23,10 +15,10 @@ export default function AdvancedAgroManagement() {
         <div className="flex flex-col spacey-y-2">
           {/* Title */}
           <span className="text-gray-100 sm:text-lg text-sm font-Arimo tracking-wide">
-            Software Developer <span className="text-AAsecondary">@ Wordpress</span>
+          FullSatck Developer <span className="text-AAsecondary">@Web App</span>
           </span>
           {/* Date */}
-          <span className="font-mono text-xs text-gray-500">june - August 2019</span>
+          <span className="font-mono text-xs text-gray-500">Aout 2022 - Janvier 2023</span>
         </div>
         <div className="flex flex-col space-y-4 sm:text-sm text-xs">
           {/* Tasks Description 1 */}

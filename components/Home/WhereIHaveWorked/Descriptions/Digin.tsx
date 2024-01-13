@@ -2,10 +2,10 @@ import React from "react";
 import ArrowIcon from "../../../Icons/ArrowIcon";
 import { getTasksTextWithHighlightedKeyword } from "./taskAndType";
 
-export default function TrouveTavoie() {
+export default function Digin() {
   const tasks = [
     {
-      text: "Participation à la mise en place d&apos;une plateforme d&apos;analyse et de visualisation des données pour l&apos;association Africaine de l&apos;eau et de l&apos;Assainissement (AAEA) | Nuxt.Js, Vue.Js, Spring Boot, Docker Portainer, PostgreSql",
+      text: "Participation à la mise en place d&apos;une plateforme d&apos;analyse, de visualisation et de benchmarking des données pour l&apos;association Africaine de l&apos;eau et de l&apos;Assainissement (AAEA) | Nuxt.Js, Vue.Js, Spring Boot, Docker Portainer, PostgreSql",
       keywords: ["Nuxt.Js", "Vue.js", "Spring Boot", "Docker Portainer"],
     },
     {
@@ -24,7 +24,7 @@ export default function TrouveTavoie() {
         <div className="flex flex-col spacey-y-2">
           {/* Title */}
           <span className="text-gray-100 sm:text-lg text-sm font-Arimo tracking-wide">
-            Développeur <span className="text-AAsecondary">@ VueJs</span>
+            Développeur <span className="text-AAsecondary">@ NuxtJs</span>
           </span>
           {/* Date */}
           <span className="font-mono text-xs text-gray-500">Mars - August 2022</span>

@@ -160,7 +160,7 @@ export default function Home() {
                   className="absolute w-full z-10 bg-AAprimary opacity-90 rounded border-[0.5px] border-gray-700 flex justify-center items-center
                           hover:cursor-pointer"
                 >
-                  <span className="text-gray-400 font-mono">Click to continue..</span>
+                  <span className="text-gray-400 font-mono">Click pour continuer..</span>
                 </div>
               )}
               {/* Text : Wpm & Timer */}
@@ -266,7 +266,7 @@ export default function Home() {
               </div>
             </div>
           </main>
-          <Footer className="absolute bottom-0" link="https://github.com/hktitof/Typing" />
+          <Footer className="absolute bottom-0" link="https://github.com/sminth" />
         </>
       )}
 
@@ -280,7 +280,7 @@ export default function Home() {
             statistics={statistics}
             timeToType={timeToType}
           />
-          <Footer className="pt-16" link="https://github.com/hktitof/Typing" />
+          <Footer className="pt-16" link="https://github.com/sminth" />
         </>
       )}
     </div>

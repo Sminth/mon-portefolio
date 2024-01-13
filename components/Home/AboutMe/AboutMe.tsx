@@ -3,9 +3,9 @@ import Img from "../../../components/smallComp/image/Img";
 import ArrowIcon from "../../../components/Icons/ArrowIcon";
 export default function AboutMe(props) {
   const technologies = [
-    ["Next.js","Nuxt.js","Vue.js","JavaScript","Bootstrap CSS"],
-    ["Node.js", "TypeScript", "Framer Motion", "React-native", "Flutter"],
-    ["Python", "Flask", "Laravel", "Spring Boot", "C++ (Arduino)"],
+    ["JavaScript", "TypeScript", "Python", "Java", "C++ (Arduino)"],
+    ["NextJs","NuxtJs","VueJs", "Flask", "Laravel" ],
+    ["Flutter", "React-native",  "Tailwind Css","Bootstrap CSS", "Git"],
   ];
   return (
     <div id="sectionAPropos" data-aos="fade-up" className="snap-start flex flex-col items-center py-20 bg-AAprimary">
@@ -28,12 +28,12 @@ export default function AboutMe(props) {
         <div className="w-full md:w-7/12 space-y-4 sm:text-base text-sm ">
           <div className="font-Header ">
             <span className="text-gray-400 ">
-              Salut ! Je m&apos;appelle Emmanuel Malan, et je suis un ingénieur logiciel passionné et résolveur de problèmes, dédié à la création de codes impactants sur le web et le mobile. Mon aventure en informatique a commencé en 2018, lorsque je me suis plongé dans le monde du hacking éthique avec de simple <span className="text-AAsecondary">code python</span>.
+            Salut ! Je suis <span className="text-AAsecondary">Emmanuel Malan</span>, un ingénieur logiciel passionné et résolveur de problèmes, dédié à la création de codes impactants sur le web et le mobile. Mon parcours dans le monde de l'informatique a débuté en 2018, lorsque j'ai plongé dans l'univers Python.
             </span>
           </div>
           <div className="font-Header ">
             <span className="text-gray-400 ">
-              Depuis ma licemce 2 en <span className="text-AAsecondary">MIAGE</span> , J&apos;ai eu à travailler sur divers projets pour diverses entreprises, me permettant d&apos;affiner mon expertise en développement web et mobile. J&apos;aime repousser les limites et favoriser les avancées. Ma passion pour l&apos;apprentissage continu me pousse à toujours me challenger
+              Depuis ma licence 2 en <span className="text-AAsecondary">MIAGE</span> , J&apos;ai eu à travailler sur divers projets pour diverses entreprises, me permettant d&apos;affiner mon expertise en développement web et mobile. J&apos;aime repousser les limites et favoriser les avancées. Ma passion pour l&apos;apprentissage continu me pousse à toujours me challenger
               </span>
           </div>
 
@@ -92,7 +92,7 @@ export default function AboutMe(props) {
             <div className="absolute w-5/6 h-5/6  rounded overflow-hidden">
               <div className="absolute w-full h-full group-hover:opacity-0 bg-AAsecondary opacity-10 duration-300 rounded overflow-hidden"></div>
               <Img
-                src={"/img/emmanuel.jpg"}
+                src={"/img/sminth.jpeg"}
                 className={"object-contain rounded-lg"}
                 alt="Image Emmanuel Malan"
               />
@@ -103,7 +103,7 @@ export default function AboutMe(props) {
             <div className="absolute w-48 h-full  rounded  translate-x-5 translate-y-5 border-2 border-AAsecondary"></div>
             <div className="absolute w-48 h-full rounded overflow-hidden">
               <Img
-                src={"/img/emmanuel.jpg"}
+                src={"/img/sminth.jpeg"}
                 className={"object-contain rounded-lg"}
                 alt="Image Emmanuel Malan"
               />

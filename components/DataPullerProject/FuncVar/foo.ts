@@ -246,9 +246,9 @@ export const onClickUpdateLocation = async (
 // data for Additional Information Section 1
 export const Additional_data = (userData, gpuTier) => {
   return [
-    { title: "Browser :", value: userData.current?.browser || "Checking..." },
+    { title: "Navigateur :", value: userData.current?.browser || "Checking..." },
     {
-      title: "Browser Version :",
+      title: "Version Navigateur :",
       value: userData.current?.browserVersion || "Checking...",
     },
     {
@@ -273,28 +273,28 @@ export const Additional_data = (userData, gpuTier) => {
 export const tableData = (userData, zipCode) => {
   return [
     {
-      title: "IP Address :",
+      title: "Adresse IP :",
       value: userData.current?.query || "Checking...",
     },
-    { title: "City :", value: userData.current?.city || "Checking..." },
+    { title: "Ville :", value: userData.current?.city || "Checking..." },
     { title: "Zip Code :", value: zipCode || "Checking..." },
     {
-      title: "Region :",
+      title: "Région :",
       value: userData.current?.regionName || "Checking...",
     },
     {
-      title: "Region Code :",
+      title: "Région Code :",
       value: userData.current?.region || "Checking...",
     },
-    { title: "Country :", value: userData.current?.country || "Checking..." },
+    { title: "Pays :", value: userData.current?.country || "Checking..." },
     {
-      title: "Current Date/time :",
+      title: "Date/time Actuel:",
       value: userData.current?.datetime || "Checking...",
     },
     {
-      title: "Battery :",
+      title: "Batterie :",
       value: userData.current?.batteryLevel || "Checking...",
     },
-    { title: "As :", value: userData.current?.as || "Checking..." },
+    { title: "De :", value: userData.current?.as || "Checking..." },
   ];
 };

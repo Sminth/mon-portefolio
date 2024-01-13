@@ -9,7 +9,7 @@ export default function Timer(props:Props) {
   return (
     <div className="w-full">
     <div className="flex flex-col space-y-1">
-      <span className="sm:text-xl">Time you spent</span>
+      <span className="sm:text-xl">Temps passé</span>
       <div className="flex flex-row space-x-4 justify-center ">
         <div className="flex flex-col spacey-y-1 items-center">
           <div className="flex flex-row space-x-1">

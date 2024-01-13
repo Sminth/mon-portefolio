@@ -2,20 +2,13 @@ import React from "react";
 import ArrowIcon from "../../../Icons/ArrowIcon";
 import { getTasksTextWithHighlightedKeyword } from "./taskAndType";
 
-export default function SuperBerry() {
+export default function Mathetes() {
   const tasks = [
     {
-      text: "Designed and Built user-friendly customizable static web application using ReactJS, TailwindCSS v1, and TypeScript.",
-      keywords: ["ReactJS", "TailwindCSS v1", "TypeScript"],
+      text: "Contribution à la création d'une plate-forme de conformité des données personnelles pour DPSE COMPLIANCE, impliquant l'analyse des besoins, la conception des écrans utilisateur, le développement d'API, la création et la configuration des groupes utilisateurs, ainsi que les tests et la validation. Développer en Laravel et VueJs",
+      keywords: ["DPSE COMPLIANCE","Laravel", "VueJs"],
     },
-    {
-      text: "upgraded the web application for better SEO with Next.js and exploiting the server-side rendering benefits.",
-      keywords: ["Next.js"],
-    },
-    {
-      text: "Provided technical support and troubleshoots errors and/or problems with web based applications.",
-      keywords: ["technical support","troubleshoots"],
-    },
+
   ];
 
   return (
@@ -24,10 +17,10 @@ export default function SuperBerry() {
         <div className="flex flex-col spacey-y-2">
           {/* Title */}
           <span className="text-gray-100 sm:text-lg text-sm font-Arimo tracking-wide">
-            Software Engineer <span className="text-AAsecondary">@ Web App</span>
+            FullSatck Developer <span className="text-AAsecondary">@ Web App</span>
           </span>
           {/* Date */}
-          <span className="font-mono text-xs text-gray-500">June - August 2020</span>
+          <span className="font-mono text-xs text-gray-500">Octobre - Décembre 2020</span>
         </div>
         <div className="flex flex-col space-y-4 sm:text-sm text-xs">
           {/* Tasks Description 1 */}

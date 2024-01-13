@@ -2,15 +2,19 @@ import React from "react";
 import ArrowIcon from "../../../Icons/ArrowIcon";
 import { getTasksTextWithHighlightedKeyword } from "./taskAndType";
 
-export default function EnsVision() {
+export default function Eve() {
   const tasks = [
     {
-      text: "Développement d&apos;une application clone de Djamo utilisant Reat Native et Metro",
-      keywords: ["Reat Native", "Metro"],
+      text: "Développement d&apos;une application clone de l'appli Djamo utilisant React Native et Metro",
+      keywords: ["React Native", "Metro"],
     },
     {
-      text: "Conception et mise en place ..... Next.js, React.Js",
-      keywords: ["Next.js",'React.Js'],
+      text: "Integration d'une plateforme administrative de gestion des transactions pour la banque de mauritanie (BMCI) , j'ai eu à travailler avec NextJs, TailwindCss, Shadcn comme bibliotheque de composant, Axios pour la consommation api et Redux toolkit pour la gestion d'état",
+      keywords: ["NextJs",'TailwindCss', 'Shadcn', 'Redux toolkit',],
+    },
+    {
+      text: "Integration d'une plateforme administrative de gestion des chèques pour AIX , j'ai eu à travailler avec NextJs et TypeScript, TailwindCss, Shadcn comme bibliotheque de composant, Axios pour la consommation api et Redux toolkit pour la gestion d'état",
+      keywords: ["TypeScript","NextJs",'TailwindCss', 'Shadcn', 'Redux toolkit',],
     },
   ];
 

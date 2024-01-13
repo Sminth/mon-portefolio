@@ -42,7 +42,7 @@ export default function MyName(props: { finishedLoading: boolean }) {
         }}
         className="text-gray-400 font-bold text-3xl lg:text-7xl sm:text-5xl md:text-6xl mt-4"
       >
-        Je donne vie aux idées et aux choses.
+        Je donne vie a vos idées.
       </motion.h2>
 
       <motion.h3
@@ -55,7 +55,7 @@ export default function MyName(props: { finishedLoading: boolean }) {
         className="text-gray-400 font-Header text-sm md:text-lg sm:text-md mt-10 tracking-wider"
       >
         {/* Je suis un <span className="text-AAsecondary">ingénieur logiciel</span>, doté de solides compétences en résolution de problèmes et spécialisé dans la création d&apos;expériences numériques exceptionnelles. Mon domaine d&apos;activité actuel est le <span className="text-AAsecondary">domaine web3</span>, où je participe activement au développement et à la conception d&apos;<span className="text-AAsecondary">applications web3 immersives</span>. Cela implique de travailler avec des <span className="text-AAsecondary">Smart Contracts</span> sur la <span className="text-AAsecondary">Blockchain</span>. */}
-        Je suis un <span className="text-AAsecondary">ingénieur logiciel passionné</span>, spécialisé dans la conception d&apos;applications web et mobiles en utilisant des <span className="text-AAsecondary">technologies de pointe</span>. Je suis animé par le désir de créer des expériences numériques exceptionnelles qui transforment la manière dont les utilisateurs interagissent avec la technologie.
+        En tant qu' <span className="text-AAsecondary">ingénieur logiciel passionné</span>, mon expertise se concentre sur la création d'applications web et mobiles innovantes, en tirant parti des <span className="text-AAsecondary">dernières technologies</span>. Mon objectif est de donner vie à des expériences numériques captivantes, transformant ainsi la manière dont les utilisateurs interagissent avec la technologie.
 
       </motion.h3>
       <motion.div

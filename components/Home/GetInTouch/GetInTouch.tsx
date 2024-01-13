@@ -18,7 +18,7 @@ export default function GetInTouch() {
       {/* // ? Get In Touch */}
       <span className="text-gray-200 text-3xl sm:text-4xl font-bold tracking-wider opacity-85">Entrer en contact</span>
       <p className="flex font-Header tracking-wider text-gray-400 text-center px-6 sm:px-16 md:px-0 md:w-[600px]">
-      Bien que je sois toujours ouvert à toute nouvelle opportunité, ma boîte de réception est ouverte. Que vous ayez une question ou que vous souhaitiez simplement me dis bonjour, je ferai de mon mieux pour vous répondre !
+      A l'écoute de toute nouvelle opportunité, ma boîte de réception est ouverte. Que vous ayez une question ou que vous souhaitiez simplement me dis bonjour, je ferai de mon mieux pour vous répondre !
       </p>
       <div className="pt-4">
         <a href="mailto:kassi.emmanuelmalan@gmail.com" target={"_blank"} rel="noreferrer">

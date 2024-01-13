@@ -9,19 +9,19 @@ export default function About() {
                      "
       // opacity-10   hover:opacity-100 duration-500
     >
-      <div className="flex-none  w-32 lg:w-44 flex justify-center items-center">
-        <Img src="gdscCercle.png" alt="About picture" className="opacity-80" />
-      </div>
+      {/* <div className="flex-none  w-32 lg:w-44 flex justify-center items-center">
+        <Img src="img/sminth.jpeg" alt="About picture" className="opacity-80" />
+      </div> */}
       <div className="flex flex-col space-y-8  items-center">
-        <span className="font-extrabold lg:text-5xl md:text-4xl text-2xl sm:text-3xl text-gray-300 text-center">
-          What&apos;;s this project for?
+      <span className="font-extrabold lg:text-5xl md:text-4xl text-2xl sm:text-3xl text-gray-300 text-center">
+          A quoi sert ce projet ?
         </span>
-        <span className="font-sans italic  sm:text-base text-sm text-gray-400 text-center">
-          Most jobs do not explicitly require certain typing speeds, but that&apos;;s because basic typing skills are
-          taken as a given. Thus, you should{" "}
-          <span className="font-bold text-gray-300">aim for a typing speed of at least 40 WPM</span> to keep up a
-          standard level of efficiency at work..However this project aim to help you to improve your typing speed by
-          tracking your progress in each round and give you a score based on your typing speed and accuracy.
+        <span className="font-sans italic sm:text-base text-sm text-gray-400 text-center">
+          La plupart des emplois n'exigent pas explicitement certaines vitesses de frappe, mais c'est parce que les compétences de base en frappe sont nécessaires.
+          pris pour acquis. Ainsi, vous devriez{" "}
+          <span className="font-bold text-gray-300">visez une vitesse de frappe d'au moins 40 WPM</span> pour maintenir un
+          niveau standard d'efficacité au travail. Cependant, ce projet vise à vous aider à améliorer votre vitesse de frappe en
+          suivre vos progrès à chaque tour et vous donner un score basé sur votre vitesse de frappe et votre précision.
         </span>
       </div>
     </div>

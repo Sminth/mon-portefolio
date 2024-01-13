@@ -22,21 +22,21 @@ export default function Fotter(props:{link:string,className:string}) {
         {/* // ? Reach me at */}
         <div className="flex flex-row space-x-8">
           <ClickableIcon
-            href={"https://github.com/hktitof"}
+            href={"https://github.com/sminth"}
             Icon={GithubIcon}
           />
           <ClickableIcon
-            href={"https://www.linkedin.com/in/abdellatif-anaflous/"}
+            href={"https://www.linkedin.com/in/emmanuel-malan/"}
             Icon={LinkedinIcon}
           />
-          <ClickableIcon
+          {/* <ClickableIcon
             href={"https://www.instagram.com/xredme/"}
             Icon={InstagramIcon}
           />
           <ClickableIcon
             href={"https://www.youtube.com/c/NTTFT"}
             Icon={YoutubeIcon}
-          />
+          /> */}
         </div>
         <a href={props.link} className="" target={"_blank"} rel="noreferrer">
           <div
@@ -44,7 +44,7 @@ export default function Fotter(props:{link:string,className:string}) {
     text-sm  space-y-2  "
           >
             <span className="group-hover:text-AAsecondary sm:text-sm text-xs">
-              Designed & Built by Anaflous Abdellatif
+              {/* Designed & Built by Anaflous Abdellatif */}
             </span>
 
             <span className="text-xs flex flex-row items-center space-x-2 group-hover:text-AAsecondary">

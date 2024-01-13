@@ -35,7 +35,7 @@ const MobileMenu = props => {
               className="text-white font-Text2 text-sm sm:text-base
              hover:text-AAsecondary hover:cursor-pointer duration-300"
             >
-              About
+              Apropos
             </span>
           </Link>
           <Link
@@ -69,7 +69,7 @@ const MobileMenu = props => {
               className="text-white font-Text2 text-sm sm:text-base
              hover:text-AAsecondary hover:cursor-pointer duration-300"
             >
-              Work
+              Réalisation
             </span>
           </Link>
           <Link
@@ -94,7 +94,7 @@ const MobileMenu = props => {
               className="rounded border font-Text2  border-AAsecondary
            hover:bg-ResumeButtonHover py-2 sm:py-4 px-5 sm:px-10 text-xs text-AAsecondary"
             >
-              Resume
+              Mon CV
             </button>
           </a>
         </div>

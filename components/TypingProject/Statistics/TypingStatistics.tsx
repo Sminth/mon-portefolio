@@ -23,7 +23,7 @@ export default function TypingStatistics(props: Props) {
           className="flex flex-col items-center text-gray-400 hover:text-AAsecondary duration-300"
         >
           <span className="sm:text-base text-xs">Windows : Ctrl + /</span>
-          <span className="sm:text-base text-xs">Or</span>
+          <span className="sm:text-base text-xs">Ou</span>
           <span className="sm:text-base text-xs">Mac : Cmd + /</span>
         </motion.div>
         {/**Separator */}
@@ -43,7 +43,7 @@ export default function TypingStatistics(props: Props) {
             <RestartIcon />
           </div>
           <span className="sm:text-lg text-sm font-mono text-gray-400 group-hover:text-AAsecondary duration-200 group-hover:translate-x-2">
-            Restart
+            Reprendre
           </span>
         </motion.div>
       </section>

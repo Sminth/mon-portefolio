@@ -128,7 +128,7 @@ export default function Page() {
             <div className="h-full md:w-2/3 md:order-1 order-2  md:pr-10 flex flex-col space-y-3 ">
               <div className="pb-2 sm:pt-0 pt-4">
                 <span className="text-xl sm:text-2xl font-bold pb-8 underline">
-                  General Information :
+                  Information Générale &#58;
                 </span>
               </div>
               <table className="border-2 border-gray-300 w-full font-mono">
@@ -141,7 +141,7 @@ export default function Page() {
 
               <div className="pb-2 sm:pt-8 pt-4">
                 <span className="text-xl sm:text-2xl font-bold underline">
-                  Additional Information &#58;
+                Informations supplémentaires &#58;
                 </span>
               </div>
               <section className="flex flex-col lg:flex-row lg:space-y-0 space-y-3 lg:space-x-4 font-mono">
@@ -163,12 +163,12 @@ export default function Page() {
                 <div className="flex-none flex-col space-y-3">
                   <BlockElem
                     size="md:w-52 w-44"
-                    title=" Screen orientation :"
+                    title=" Orientation écran :"
                     value={userData.current?.screenOrientationType || ""}
                   />
                   <BlockElem
                     size="w-32"
-                    title="Screen size :"
+                    title="Taille écran :"
                     value={
                       (userData.current?.screenWidth || "") +
                       " x " +
@@ -178,7 +178,7 @@ export default function Page() {
 
                   <div className="flex flex-row space-x-2">
                     <span className="text-gray-200 font-semibold flex-none w-32 text-sm md:text-base">
-                      Window size :
+                      Tlle. Fenêtre:
                     </span>
                     <span className="text-AAsecondary font-semibold  text-sm md:text-base">
                       <span ref={windowWidth} className="text-AAsecondary">
@@ -193,7 +193,7 @@ export default function Page() {
 
                   <div className="flex-none flex-row space-x-2">
                     <span className="text-gray-200 font-semibold flex-none w-36 text-sm md:text-base">
-                      Mouse position :
+                      Position souris :
                     </span>
                     <span className="text-AAsecondary font-semibold text-sm md:text-base">
                       <span className="text-gray-300">X - </span>
@@ -208,7 +208,7 @@ export default function Page() {
                   </div>
                   <BlockElem
                     size="w-44"
-                    title="Screen Color Depth :"
+                    title="Profondeur de couleur de l'écran :"
                     value={userData.current?.screenColorDepth || "Checking..."}
                   />
                   <BlockElem
@@ -225,14 +225,14 @@ export default function Page() {
               <div className="w-full pb-5">
                 <div className="w-full flex flex-col space-y-2 items-center">
                   <div className="flex flex-row space-x-1 text-sm">
-                    <span className="">First visit :</span>
+                    <span className="">Première visite :</span>
                     <span
                       ref={firstVisit_Ref}
                       className="text-AAsecondary"
                     ></span>
                   </div>
                   <div className="flex flex-row space-x-1 text-sm">
-                    <span className="">Last visit :</span>
+                    <span className="">Dernière visite :</span>
                     <span
                       ref={lastVisit_Ref}
                       className="text-AAsecondary"
@@ -260,7 +260,7 @@ export default function Page() {
                 </div>
               </div>
               <div className="flex flex-col space-y-2 items-center text-center">
-                <span className="">Location not accurate?</span>
+                <span className="">Emplacement non précis?</span>
                 <span
                   onClick={() => {
                     //Hide Map when updating location
@@ -276,12 +276,12 @@ export default function Page() {
                   }}
                   className="text-AAsecondary underline text-sm hover:cursor-pointer"
                 >
-                  Update My IP Location
+                  Mettre à jour Mon IP Location
                 </span>
                 {updatingLocatinResult ? (
                   <span className="text-sm">
-                    Unable to retrieve your location!!
-                    <br /> Please Allow location permission
+                    Impossible de récupérer votre position !!
+                    <br /> Veuillez autoriser l'autorisation de localisation
                   </span>
                 ) : (
                   <></>
