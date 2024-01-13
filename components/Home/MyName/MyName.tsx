@@ -2,6 +2,7 @@ import React from "react";
 import { motion } from "../../../node_modules/framer-motion/dist/framer-motion";
 import Link from "next/link";
 import { useRouter } from "next/router";
+import ArrowIcon from "../../Icons/ArrowIcon";
 
 export default function MyName(props: { finishedLoading: boolean }) {
   const router = useRouter();
@@ -73,6 +74,19 @@ export default function MyName(props: { finishedLoading: boolean }) {
           </button>
         </a>
       </motion.div>
+      <motion.div
+        initial={{ y: 10, opacity: 0 }}
+        animate={{ y: 0, opacity: 1 }}
+        transition={{
+          opacity: { delay: props.finishedLoading ? 0 : 10.8, duration: props.finishedLoading ? 0 : 0.2 },
+          y: { delay: props.finishedLoading ? 0 : 10.8, duration: props.finishedLoading ? 0 : 0.2 },
+        }}
+        className="mt-12 text-center"
+      >
+        <a href="#sectionAPropos" className="md:d-hidden pt6 justify-center items-center  text-AAsecondary h-9 w-5 text-center bg-ble-300"> &#8595;
+        
+        </a>
+        </motion.div>
     </div>
   );
 }
