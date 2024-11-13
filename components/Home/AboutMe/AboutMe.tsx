@@ -5,7 +5,7 @@ export default function AboutMe(props) {
   const technologies = [
     ["JavaScript", "TypeScript", "Python", "Java", "C++ (Arduino)"],
     ["NextJs","NuxtJs","VueJs", "Flask", "Laravel" ],
-    ["Flutter", "React-native",  "Tailwind Css","Bootstrap CSS", "Git"],
+    ["Flutter", "React-native",  "Tailwind Css","Shadcn UI", "Portainer"],
   ];
   return (
     <div id="sectionAPropos" data-aos="fade-up" className="snap-start flex flex-col items-center py-20 bg-AAprimary">
@@ -26,16 +26,16 @@ export default function AboutMe(props) {
 
       <div className="w-full flex flex-col md:flex-row space-y-8 md:space-y-0 md:space-x-8 sm:space-x-2 ">
         <div className="w-full md:w-7/12 space-y-4 sm:text-base text-sm ">
-          <div className="font-Header ">
-            <span className="text-gray-400 ">
-            Salut ! Je suis <span className="text-AAsecondary">Emmanuel Malan</span>, un ingénieur logiciel passionné et résolveur de problèmes, dédié à la création de codes impactants sur le web et le mobile. Mon parcours dans le monde de l&apos;informatique a débuté en 2018, lorsque j&apos;ai plongé dans l&apos;univers Python.
-            </span>
-          </div>
-          <div className="font-Header ">
-            <span className="text-gray-400 ">
-              Depuis ma licence 2 en <span className="text-AAsecondary">MIAGE</span> , J&apos;ai eu à travailler sur divers projets pour diverses entreprises, me permettant d&apos;affiner mon expertise en développement web et mobile. J&apos;aime repousser les limites et favoriser les avancées. Ma passion pour l&apos;apprentissage continu me pousse à toujours me challenger
-              </span>
-          </div>
+        <div className="font-Header">
+  <span className="text-gray-400">
+    Salut ! Je suis <span className="text-AAsecondary">Emmanuel Malan</span>, ingénieur logiciel passionné, déterminé à transformer des idées en solutions concrètes . Mon parcours dans l’univers de l’informatique a débuté en 2018, avec une immersion dans le langage Python.
+  </span>
+</div>
+<div className="font-Header">
+  <span className="text-gray-400">
+    Depuis ma licence 2 en <span className="text-AAsecondary">MIAGE</span>, j&apos;ai travaillé sur une multitude de projets pour diverses entreprises, renforçant ainsi mon expertise. J&apos;aime repousser les limites et innover, restant à l&apos;affût des dernières technologies pour relever de nouveaux défis. Ma quête d&apos;apprentissage continu et mon engagement à créer un impact me poussent à toujours me surpasser.
+  </span>
+</div>  
 
           <div className="font-Header tracking-wide">
             <span className="text-gray-400  ">

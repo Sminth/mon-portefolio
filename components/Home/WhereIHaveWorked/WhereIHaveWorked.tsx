@@ -133,6 +133,15 @@ const CompaniesBar = props => {
             setDescriptionJob={props.setDescriptionJob}
           />
           <CompanyButton
+            ButtonOrderOfcompanyNameBackgroundColorGreen={4}
+            CompanyName="Toubabi"
+            BarPosition={220}
+            BarAvobePosition={513}
+            DescriptionJob="Toubabi"
+            CompanyNameBackgroundColorGreen={[false, false, false, false, true]}
+            setDescriptionJob={props.setDescriptionJob}
+          />
+          <CompanyButton
             ButtonOrderOfcompanyNameBackgroundColorGreen={2}
             CompanyName="Orange CI"
             BarPosition={132}
@@ -150,15 +159,7 @@ const CompaniesBar = props => {
             CompanyNameBackgroundColorGreen={[false, false, false, true]}
             setDescriptionJob={props.setDescriptionJob}
           />
-          <CompanyButton
-            ButtonOrderOfcompanyNameBackgroundColorGreen={4}
-            CompanyName="Toubabi"
-            BarPosition={220}
-            BarAvobePosition={513}
-            DescriptionJob="Toubabi"
-            CompanyNameBackgroundColorGreen={[false, false, false, false, true]}
-            setDescriptionJob={props.setDescriptionJob}
-          />
+          
           {/* <CompanyButton
             ButtonOrderOfcompanyNameBackgroundColorGreen={5}
             CompanyName="AA Management"

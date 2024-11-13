@@ -5,8 +5,8 @@ import { getTasksTextWithHighlightedKeyword } from "./taskAndType";
 export default function Toubabi() {
   const tasks = [
     {
-      text: "En tant que lead, j'ai dirigé le développement de Toubabi, un site web immobilier novateur. Mon rôle clé englobait la conception et l'implémentation d'une interface utilisateur interactive, améliorant l'expérience des utilisateurs dans leur recherche de biens immobiliers. J'ai également supervisé l'intégration d'outils de simulation de projet et de cartographie des prix, permettant la visualisation des prix de vente et de location de divers types de biens dans différents quartiers, ainsi que les indices DGI. Développer principalement en Laravel",
-      keywords: ["Toubabi", "cartographie des prix", "indice DGI","Laravel"],
+      text: "En tant que lead, j'ai dirigé le développement de Toubabi.com, un site web immobilier novateur. Mon rôle clé englobait la conception et l'implémentation d'une interface utilisateur interactive, améliorant l'expérience des utilisateurs dans leur recherche de biens immobiliers. J'ai également supervisé l'intégration d'outils de simulation de projet et de cartographie des prix, permettant la visualisation des prix de vente et de location de divers types de biens dans différents quartiers, ainsi que les indices DGI. Développer principalement en Laravel",
+      keywords: ["Toubabi.com", "cartographie des prix", "indices DGI","Laravel"],
     }
   ];
   return (
