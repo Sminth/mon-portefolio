@@ -7,6 +7,7 @@ import AboutMe from "../components/Home/AboutMe/AboutMe";
 import ThisCantBeReached from "../components/Home/ThisSiteCantBeReached/ThisCantBeReached";
 import WhereIHaveWorked from "../components/Home/WhereIHaveWorked/WhereIHaveWorked";
 import SomethingIveBuilt from "../components/Home/SomethingIveBuilt/SomethingIveBuilt";
+import Achievements from "../components/Home/Achievements/Achievements";
 import GetInTouch from "../components/Home/GetInTouch/GetInTouch";
 import Footer from "../components/Footer/Footer";
 import AppContext from "../components/AppContextFolder/AppContext";
@@ -56,8 +57,8 @@ export default function Home() {
 
   console.log("Portfolio Rendered...");
   const meta = {
-    title: "Emmanuel Malan - Software Engineer",
-    description: `Je travaille sur le développement de logiciels depuis 3 ans d&apos;affilée. Contactez-moi pour en savoir plus.`,
+    title: "Emmanuel Malan - Senior Software Engineer & SaaS Founder",
+    description: `Ingénieur logiciel senior avec 5+ ans d'expérience. Lead digital transformation à la CIE. Expert en NestJS, React Native, microservices, Temporal.io et blockchain.`,
     image: "/img/sminth.jpeg",
     type: "website",
   };
@@ -69,15 +70,15 @@ export default function Home() {
         <title>{meta.title}</title>
         <meta name="robots" content="follow, index" />
         <meta content={meta.description} name="description" />
-        <meta property="og:url" content={`https://anaflous.com`} />
-        <link rel="canonical" href={`https://anaflous.com`} />
+        <meta property="og:url" content={`https://emmanuelmalan.vercel.app`} />
+        <link rel="canonical" href={`https://emmanuelmalan.vercel.app`} />
         <meta property="og:type" content={meta.type} />
-        <meta property="og:site_name" content="Manu Arora" />
+        <meta property="og:site_name" content="Emmanuel Malan" />
         <meta property="og:description" content={meta.description} />
         <meta property="og:title" content={meta.title} />
         <meta property="og:image" content={meta.image} />
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:site" content="@titofabdo" />
+        <meta name="twitter:site" content="@emmanuelmalan" />
         <meta name="twitter:title" content={meta.title} />
         <meta name="twitter:description" content={meta.description} />
         <meta name="twitter:image" content={meta.image} />
@@ -91,6 +92,7 @@ export default function Home() {
         {context.sharedState.finishedLoading ? <AboutMe ref={aboutRef} /> : <></>}
         {context.sharedState.finishedLoading ? <WhereIHaveWorked /> : <></>}
         {context.sharedState.finishedLoading ? <SomethingIveBuilt /> : <></>}
+        {context.sharedState.finishedLoading ? <Achievements /> : <></>}
         {context.sharedState.finishedLoading ? <GetInTouch /> : <></>}
         {context.sharedState.finishedLoading ? (
           <Footer githubUrl={"https://github.com/sminth"} hideSocialsInDesktop={true} />

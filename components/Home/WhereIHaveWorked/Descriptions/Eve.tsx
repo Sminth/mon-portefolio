@@ -27,7 +27,7 @@ export default function Eve() {
         "axios",
       ],
     },
-    
+
     {
       text: "Développement d&apos;un clone de l'application Djamo utilisant React Native et Metro",
       keywords: ["React Native", "Metro"],
@@ -40,11 +40,11 @@ export default function Eve() {
         <div className="flex flex-col spacey-y-2">
           {/* Title */}
           <span className="text-gray-100 sm:text-lg text-sm font-Arimo tracking-wide">
-            Fontend Dev <span className="text-AAsecondary">@ Js framework</span>
+            Frontend Developer <span className="text-AAsecondary">@ Modern JS Frameworks</span>
           </span>
           {/* Date */}
           <span className="font-mono text-xs text-gray-500">
-            21 Aout 2023 - en cours
+            Septembre 2023 - Décembre 2024
           </span>
           <span
             className="font-mono text-xs text-AAsecondary hover:cursor-pointer"

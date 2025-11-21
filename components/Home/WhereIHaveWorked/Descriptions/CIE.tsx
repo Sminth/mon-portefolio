@@ -1,0 +1,67 @@
+import ArrowIcon from "../../../Icons/ArrowIcon";
+import { getTasksTextWithHighlightedKeyword } from "./taskAndType";
+
+export default function CIE() {
+    const tasks = [
+        {
+            text: "Membre de l'équipe Innovation et Veille Digitale, je conçois et développe des solutions technologiques à forte valeur ajoutée pour accompagner la transformation numérique de la CIE",
+            keywords: ["Innovation", "Veille Digitale", "transformation numérique"],
+        },
+        {
+            text: "Participation active à la mise en œuvre de projets innovants intégrant des technologies de pointe : automatisation des processus avec N8N, intégration blockchain, développement de solutions web avancées avec NestJs",
+            keywords: ["N8N", "blockchain", "NestJs", "automatisation"],
+        },
+        {
+            text: "Développement et déploiement du service de notifications Lolipop, une architecture microservices orchestrée par Temporal.io pour la gestion centralisée des notifications (SMS, Email, Push) à l'échelle de l'entreprise",
+            keywords: ["Lolipop", "microservices", "Temporal.io", "notifications"],
+        },
+        {
+            text: "Veille technologique permanente afin d'identifier et d'expérimenter les outils les plus pertinents pour l'optimisation des processus métiers",
+            keywords: ["Veille technologique", "optimisation"],
+        },
+    ];
+
+    return (
+        <>
+            <div className="flex flex-col space-y-5 max-w-xl px-4 md:px-0">
+                <div className="flex flex-col spacey-y-2">
+                    {/* Title */}
+                    <span className="text-gray-100 sm:text-lg text-sm font-Arimo tracking-wide">
+                        Cadre Processus et Digitalisation{" "}
+                        <span className="text-AAsecondary">@ Innovation & Digital</span>
+                    </span>
+                    {/* Date */}
+                    <span className="font-mono text-xs text-gray-500">
+                        Janvier 2025 - Présent
+                    </span>
+                    <span
+                        className="font-mono text-xs text-AAsecondary hover:cursor-pointer"
+                        style={{ fontSize: "0.6rem" }}
+                        onClick={() => window.open("https://www.cie.ci/", "_blank")}
+                    >
+                        www.cie.ci
+                    </span>
+                </div>
+                <div className="flex flex-col space-y-4 sm:text-sm text-xs">
+                    {/* Tasks Description */}
+                    {tasks.map((item, index) => {
+                        return (
+                            <div key={index} className="flex flex-row space-x-1">
+                                <ArrowIcon className={" h-5 w-4 text-AAsecondary flex-none"} />
+                                <span
+                                    className="text-gray-500 sm:text-sm text-xs"
+                                    dangerouslySetInnerHTML={{
+                                        __html: getTasksTextWithHighlightedKeyword(
+                                            item.text,
+                                            item.keywords
+                                        ),
+                                    }}
+                                ></span>
+                            </div>
+                        );
+                    })}
+                </div>
+            </div>
+        </>
+    );
+}
