@@ -28,12 +28,12 @@ export default function AboutMe(props) {
           <div className="w-full md:w-7/12 space-y-4 sm:text-base text-sm ">
             <div className="font-Header">
               <span className="text-gray-400">
-                Salut ! Je suis <span className="text-AAsecondary">Emmanuel Malan</span>, ingénieur logiciel senior passionné par l'innovation et la transformation digitale. Actuellement <span className="text-AAsecondary">Cadre Processus et Digitalisation</span> à la CIE, je dirige des initiatives de transformation numérique en intégrant des technologies de pointe comme <span className="text-AAsecondary">NestJS, Temporal.io, Blockchain et N8N</span>.
+                Salut ! Je suis <span className="text-AAsecondary">Emmanuel Malan</span>, ingénieur logiciel senior passionné par l&apos;innovation et la transformation digitale. Actuellement <span className="text-AAsecondary">Cadre Processus et Digitalisation</span> à la CIE, je dirige des initiatives de transformation numérique en intégrant des technologies de pointe comme <span className="text-AAsecondary">NestJS, Temporal.io, Blockchain et N8N</span>.
               </span>
             </div>
             <div className="font-Header">
               <span className="text-gray-400">
-                Avec plus de <span className="text-AAsecondary">5 ans d'expérience</span>, j'ai travaillé sur une multitude de projets pour diverses entreprises, de la conception d'architectures microservices à la création d'applications mobiles cross-platform. J&apos;aime repousser les limites et innover, restant à l&apos;affût des dernières technologies pour relever de nouveaux défis.
+                Avec plus de <span className="text-AAsecondary">5 ans d&apos;expérience</span>, j&apos;ai travaillé sur une multitude de projets pour diverses entreprises, de la conception d&apos;architectures microservices à la création d&apos;applications mobiles cross-platform. J&apos;aime repousser les limites et innover, restant à l&apos;affût des dernières technologies pour relever de nouveaux défis.
               </span>
             </div>
             <div className="font-Header tracking-wide">
